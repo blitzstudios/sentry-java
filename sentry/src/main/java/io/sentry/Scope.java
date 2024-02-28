@@ -279,7 +279,7 @@ public final class Scope {
    * @return the breadcrumbs queue
    */
   @NotNull
-  Queue<Breadcrumb> getBreadcrumbs() {
+  public Queue<Breadcrumb> getBreadcrumbs() {
     return breadcrumbs;
   }
 
